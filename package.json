@@ -1,0 +1,32 @@
+{
+  "name": "revive2",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "webpack --progress --colors --inline --hot",
+    "dev": "webpack-dev-server --progress --colors --inline --hot",
+    "production": "webpack --progress -p",
+    "build": "cross-env NODE_ENV=production webpack"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "http-server": "^0.12.1",
+    "cross-env": "5.1.5",
+    "webpack": "4.8.1",
+    "webpack-cli": "^2.1.4",
+    "webpack-dev-server": "3.1.4",
+    "mini-css-extract-plugin": "0.4.0",
+    "optimize-css-assets-webpack-plugin": "4.0.1",
+    "uglifyjs-webpack-plugin": "1.2.5",
+    "node-sass": "4.9.0",
+    "css-loader": "0.28.11",
+    "sass-loader": "7.0.1",
+    "style-loader": "0.21.0",
+    "bootstrap": "^4.4.1",
+    "jquery": "^3.5.0",
+    "popper": "^1.0.1"
+  }
+}
